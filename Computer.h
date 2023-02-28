@@ -5,7 +5,7 @@
 
 class Computer:public Player{
     public:
-    Computer(){};
+    Computer();
     char makeMove();
     std::string getName();
     ~Computer(){};

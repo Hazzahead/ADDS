@@ -7,7 +7,8 @@
 class Human:public Player{
     public:
     Human(std::string name);
-    char makeMove();
+    char makeMove() override;
+    std::string getName() override;
     ~Human(){};
 };
 

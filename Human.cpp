@@ -2,7 +2,11 @@
 #include <iostream>
 
 Human::Human(std::string name){
-    _name = "Human";
+    _name = name;
+}
+
+std::string Human::getName(){
+    return _name;
 }
 
 char Human::makeMove(){

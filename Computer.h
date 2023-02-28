@@ -4,8 +4,10 @@
 #include "Player.h"
 
 class Computer:public Player{
-    Computer();
-    ~Computer();
+    public:
+    Computer(){};
+    char makeMove();
+    ~Computer(){};
 };
 
 #endif

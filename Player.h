@@ -4,11 +4,13 @@
 #include <string>
 
 class Player{
+    public:
+    Player(){};
+    Player(std::string);
     virtual char makeMove() = 0;
-    std::string getName();
     std::string _name;
-    Player(std::string name);
-    ~Player();
+    virtual std::string getName() = 0;
+    ~Player(){};
 };
 
 #endif

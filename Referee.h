@@ -4,9 +4,10 @@
 #include "Player.h"
 
 class Referee{
-    Referee();
+    public:
+    Referee(){};
     Player* refGame(Player* player1, Player* player2);
-    ~Referee();
+    ~Referee(){};
 };
 
 #endif

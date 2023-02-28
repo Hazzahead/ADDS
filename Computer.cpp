@@ -1,5 +1,9 @@
 #include "Computer.h"
 
-Computer::Computer(){}
+Computer::Computer(){
+    _name = "Computer";
+}
 
-Computer::~Computer(){}
+char Computer::makeMove(){
+    return 'R';
+}

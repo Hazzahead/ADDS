@@ -5,9 +5,10 @@
 #include "Player.h"
 
 class Human:public Player{
-    std::string name;
-    Human();
-    ~Human();
+    public:
+    Human(std::string name);
+    char makeMove();
+    ~Human(){};
 };
 
 #endif
